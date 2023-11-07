@@ -1,6 +1,8 @@
 # Stonewall: colourful, accurate pride flags colour palette for queer gradients
+
 You can use the colour palette with _gradients_ for maximum results! 
-For example the code in `example/example.typ` which is
+
+For example the following code
 ```typ
 #import "@preview/stonewall:0.1.0": flags
 
@@ -19,7 +21,8 @@ For example the code in `example/example.typ` which is
   ))
 )
 ```
-gives the following stack of flags as of v0.1.0
-![](flags.png)
+Displays a stack of all flags with the name on it.
 
-To use only one flag you only import the one you want
+Another example here is all the flags with the name associated with their name, thanks @frozolotl on discord for the code so the name are more readable.
+
+![flag](flags.png)
