@@ -247,7 +247,7 @@
   rgb("#b55690"),
   rgb("#a30262")
 )
-#let pride = (
+#let flags = (
   ("trans",trans),
   ("graysexual",graysexual),
   ("nonbinary",nonbinary),

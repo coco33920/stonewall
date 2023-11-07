@@ -1,4 +1,4 @@
-#import "../pride.typ": pride
+#import "../stonewall.typ": flags
 
 #set page(width: 200pt, height: auto, margin: 0pt)
 #set text(fill: black, size: 12pt)
@@ -7,7 +7,7 @@
 
 #stack(
   spacing: 3pt,
-  ..pride.map(((name, preset)) => block(
+  ..flags.map(((name, preset)) => block(
     width: 100%,
     height: 20pt,
     fill: gradient.linear(..preset),
